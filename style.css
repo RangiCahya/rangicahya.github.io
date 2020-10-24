@@ -1,0 +1,156 @@
+body {
+	background-image: linear-gradient(bottom, rgb(0,0,0) 64%, rgb(255,255,255) 100%);
+	background-image: -o-linear-gradient(bottom, rgb(0,0,0) 64%, rgb(255,255,255) 100%);
+	background-image: -moz-linear-gradient(bottom, rgb(0,0,0) 64%, rgb(255,255,255) 100%);
+	background-image: -webkit-linear-gradient(bottom, rgb(0,0,0) 64%, rgb(255,255,255) 100%);
+	background-image: -ms-linear-gradient(bottom, rgb(0,0,0) 64%, rgb(255,255,255) 100%);
+	background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.64, rgb(0,0,0)),
+	color-stop(1, rgb(255,255,255))
+	);
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: black;
+	background-repeat: no-repeat;
+}
+
+h1 {
+	margin: 0;
+	color: black;
+	font-size: 300%;
+}
+
+h2 {
+	margin: 0;
+	font-size: 15px;
+	color: white;
+}
+
+div#wrapper {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div#header {
+	border: 4px solid black;
+	border-top: 0px;
+	border-radius: 0 0 10px 10px;
+	height: 60px;
+	padding-top: 15px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+div#Content {
+	border: 3px solid white;
+	border-radius: 0 10px 10px 10px;
+	float: left;
+	width: 100%;
+}
+
+div#navi ul {
+	list-style-type: none;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+}
+
+div#navi ul li {
+	display: inline-block;
+	margin-right: 5px
+}
+
+div#navi a {
+	text-decoration: none;
+	color: white;
+	background-color: #4a424a;
+	font-size: 140%;
+	font-weight: bold;
+	padding: 15px;
+	border: 3px solid white;
+	border-radius: 10px 10px 0 0;
+	display: block;
+}
+
+div#navi a.active {
+	background-color: gray;
+	color: white;
+}
+
+div#navi a:hover {
+	color: #fff869;
+	border-bottom: 3px solid #fff869;
+}
+
+div#galerie a:hover {
+	color: #fff869;
+	color: #fff869;
+}
+
+div#galerie a:link {
+	text-decoration: none;
+	font-size: 600%;
+}
+
+div#galerie .back {
+	float: left;
+	margin-top: 40px;
+	margin-bottom: 6px;
+	margin-left: 10px;
+}
+
+div#galerie .forward {
+	float: left;
+	margin-top: 40px;
+	margin-bottom: 6px;
+}
+
+div#galerie .back a {
+	width: 50px;
+	height: 367px;
+	background-color: #636363;
+	display: block;
+	border-radius: 70px 17px 17px 70px;
+}
+
+div#galerie .forward a {
+	width: 50px;
+	height: 367px;
+	background-color: #636363;
+	display: block;
+	border-radius: 17px 70px 70px 17px;
+}
+
+div.galeriebild {
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+div.galeriebild img {
+	width: 600px;
+	height: 430px;
+	margin-top: 6px;
+	border-radius: 15px;
+}
+div.galerietext {
+	float: left;
+	width: 250px;
+	margin-left: 10px;
+}
+
+div.contenttext p {
+	color: white;
+	margin-top: 15px;
+	margin-left: 15px;
+	font-size: 130%;
+}
+
+div.galerietext p {
+	color: white;
+	font-size: 105%;
+}
